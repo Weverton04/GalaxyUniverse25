@@ -105,6 +105,15 @@
         "name": "assets\\GUI\\rect234.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GUI/Res_Right-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GUI\\Res_Right-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -153,35 +162,161 @@
     }
   ],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "Resolutions",
+      "type": "array",
+      "children": [
+        {
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 800
+            },
+            {
+              "type": "number",
+              "value": 600
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "number",
+              "value": 1024
+            },
+            {
+              "folded": true,
+              "type": "number",
+              "value": 768
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "number",
+              "value": 1280
+            },
+            {
+              "folded": true,
+              "type": "number",
+              "value": 720
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "number",
+              "value": 1366
+            },
+            {
+              "folded": true,
+              "type": "number",
+              "value": 768
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "number",
+              "value": 1440
+            },
+            {
+              "folded": true,
+              "type": "number",
+              "value": 900
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "number",
+              "value": 1600
+            },
+            {
+              "folded": true,
+              "type": "number",
+              "value": 900
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "name": "TypeResolution",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Window",
+      "type": "string",
+      "value": "ON"
+    },
+    {
+      "folded": true,
+      "name": " Grafic",
+      "type": "string",
+      "value": "Low"
+    }
+  ],
   "layouts": [
     {
-      "b": 209,
+      "b": 129,
       "disableInputWhenNotFocused": true,
       "mangledName": "Main_32Menu",
       "name": "Main Menu",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 209,
+      "r": 123,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 2,
       "uiSettings": {
         "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
-        "gridHeight": 32,
+        "gridHeight": 30,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7199999999999995,
+        "zoomFactor": 0.7999999999999996,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "Left_Buttons",
+          "objects": [
+            {
+              "name": "Res_Left_Res"
+            },
+            {
+              "name": "Res_Left_Window"
+            }
+          ]
+        }
+      ],
       "variables": [],
       "instances": [
         {
@@ -237,8 +372,8 @@
           "name": "Background",
           "persistentUuid": "cd2744a4-0d75-4304-b9d3-b1401367ce46",
           "width": 1056,
-          "x": -128,
-          "y": -64,
+          "x": -160,
+          "y": -60,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -255,6 +390,111 @@
           "x": 32,
           "y": 544,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Options",
+          "name": "TXT_Options",
+          "persistentUuid": "e5b0fc1a-ded2-4b29-847f-57b261335245",
+          "width": 0,
+          "x": 357,
+          "y": 32,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "Options",
+          "name": "TXT_Paramater",
+          "persistentUuid": "8907ee4d-8a7e-4df5-bbcf-5c85549c6341",
+          "width": 371,
+          "x": 45,
+          "y": 96,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "Options",
+          "name": "TXT_Results",
+          "persistentUuid": "857e3060-0cd2-42f7-b868-29e09b3a8306",
+          "width": 288,
+          "x": 512,
+          "y": 90,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "Options",
+          "name": "Res_Right_Res",
+          "persistentUuid": "9961d35b-0caa-4179-a87b-795de6b04019",
+          "width": 32,
+          "x": 608,
+          "y": 88,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "Options",
+          "name": "Res_Left_Res",
+          "persistentUuid": "5c5a2710-b522-44ca-a6fa-ab54ba744a98",
+          "width": 32,
+          "x": 448,
+          "y": 88,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "Options",
+          "name": "Res_Right_Window",
+          "persistentUuid": "0da88924-98e5-43f9-b634-01da023e73a2",
+          "width": 32,
+          "x": 608,
+          "y": 148,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "Options",
+          "name": "Res_Left_Window",
+          "persistentUuid": "b5be2ee7-3877-4f5e-9f96-120ccf6b06f7",
+          "width": 32,
+          "x": 448,
+          "y": 150,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -458,6 +698,259 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TXT_Options",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Bordas",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "GAME OPTIONS",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TXT_Paramater",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Game resolution\n\nWindow mode\n\nGrafic Level\n\nVolume Game\n\nVolume Music\n\n",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TXT_Results",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Bordas",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Res_Right_Res",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Res_Right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\GUI\\Res_Right-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Res_Left_Res",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Res_Right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\GUI\\Res_Right-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Res_Right_Window",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Res_Right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\GUI\\Res_Right-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Res_Left_Window",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Res_Right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\GUI\\Res_Right-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -473,7 +966,696 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TXT_Results",
+                    "=",
+                    "GlobalVariableString(Resolutions[GlobalVariableString(TypeResolution)][0])+\"x\"+GlobalVariableString(Resolutions[GlobalVariableString(TypeResolution)][1])+\"\n\n\"+GlobalVariableString(Window)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Options\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::SetTextAlignment"
+                  },
+                  "parameters": [
+                    "TXT_Paramater",
+                    "\"left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::SetTextAlignment"
+                  },
+                  "parameters": [
+                    "TXT_Results",
+                    "\"right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Left_Buttons",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Funcionalidade do botão de Opções",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Ao clicar no botão Options, vai abrir o menu\n",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BTN_Options",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Options\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Options",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Ajuste de resolução",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Res_Right_Res",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "TypeResolution",
+                        "<",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TypeResolution",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGameResolutionSize"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(Resolutions[GlobalVariable(TypeResolution)])",
+                        "GlobalVariable(Resolutions[GlobalVariable(TypeResolution)][1])"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Res_Right_Res",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "TypeResolution",
+                        "=",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TypeResolution",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGameResolutionSize"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(Resolutions[GlobalVariable(TypeResolution)])",
+                        "GlobalVariable(Resolutions[GlobalVariable(TypeResolution)][1])"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Res_Left_Res",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "TypeResolution",
+                        ">",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TypeResolution",
+                        "-",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGameResolutionSize"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(Resolutions[GlobalVariable(TypeResolution)])",
+                        "GlobalVariable(Resolutions[GlobalVariable(TypeResolution)][1])"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Res_Left_Res",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "TypeResolution",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TypeResolution",
+                        "=",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGameResolutionSize"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(Resolutions[GlobalVariable(TypeResolution)])",
+                        "GlobalVariable(Resolutions[GlobalVariable(TypeResolution)][1])"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Ativar/Desativar modo janela",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "Window",
+                        "=",
+                        "\"ON\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetFullScreen"
+                      },
+                      "parameters": [
+                        "",
+                        "yes",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "Window",
+                        "=",
+                        "\"OFF\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetFullScreen"
+                      },
+                      "parameters": [
+                        "",
+                        "no",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Res_Right_Window",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Options\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "Window",
+                        "=",
+                        "\"ON\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "Window",
+                        "=",
+                        "\"OFF\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Res_Right_Window",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Options\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "Window",
+                        "=",
+                        "\"OFF\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "Window",
+                        "=",
+                        "\"ON\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Res_Left_Window",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Options\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "Window",
+                        "=",
+                        "\"ON\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "Window",
+                        "=",
+                        "\"OFF\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Res_Left_Window",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Options\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "Window",
+                        "=",
+                        "\"oOFF\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "Window",
+                        "=",
+                        "\"ON\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
             }
           ],
           "parameters": []
@@ -500,6 +1682,28 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 7641160,
+          "ambientLightColorG": 6043600,
+          "ambientLightColorR": 7684904,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Options",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 7641160,
+          "ambientLightColorG": 6043600,
+          "ambientLightColorR": 7684904,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Empty",
+          "visibility": false,
+          "cameras": [],
           "effects": []
         }
       ],

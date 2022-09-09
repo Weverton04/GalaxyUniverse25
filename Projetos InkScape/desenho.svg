@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="desenho.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.5946522"
+     inkscape:cx="169.00635"
+     inkscape:cy="803.83121"
+     inkscape:window-width="1280"
+     inkscape:window-height="961"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3742">
+      <rect
+         style="fill:#00aa00;stroke:none;stroke-width:0.283001"
+         id="rect234"
+         width="184.36652"
+         height="54.743641"
+         x="12.584745"
+         y="110.74576"
+         ry="8.1800852" />
+      <text
+         xml:space="preserve"
+         style="font-size:21.5623px;font-family:Amiri;-inkscape-font-specification:Amiri;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.832908;stroke-dasharray:none"
+         x="102.56657"
+         y="127.01392"
+         id="text445"
+         transform="scale(0.86512473,1.1559027)"><tspan
+           sodipodi:role="line"
+           id="tspan443"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.832908;stroke-dasharray:none;stroke-opacity:1"
+           x="102.56657"
+           y="127.01392">PLAY</tspan></text>
+    </g>
+    <g
+       id="g3747">
+      <rect
+         style="fill:#0037dc;stroke:none;stroke-width:0.283001;stroke-opacity:1;fill-opacity:1"
+         id="rect234-2"
+         width="184.36652"
+         height="54.743641"
+         x="15.1017"
+         y="185.93962"
+         ry="8.1800852" />
+      <text
+         xml:space="preserve"
+         style="font-size:21.5623px;font-family:Amiri;-inkscape-font-specification:Amiri;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.832908;stroke-dasharray:none"
+         x="84.477097"
+         y="191.85614"
+         id="text445-6"
+         transform="scale(0.86512473,1.1559027)"><tspan
+           sodipodi:role="line"
+           id="tspan443-1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.832908;stroke-dasharray:none;stroke-opacity:1"
+           x="84.477097"
+           y="191.85614">OPTIONS</tspan></text>
+    </g>
+    <g
+       id="g3752">
+      <rect
+         style="fill:#8200dc;fill-opacity:1;stroke:none;stroke-width:0.283001;stroke-opacity:1"
+         id="rect234-2-7"
+         width="184.36652"
+         height="54.743641"
+         x="15.416319"
+         y="257.9873"
+         ry="8.1800852" />
+      <text
+         xml:space="preserve"
+         style="font-size:21.5623px;font-family:Amiri;-inkscape-font-specification:Amiri;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.832908;stroke-dasharray:none"
+         x="70.669418"
+         y="254.99239"
+         id="text445-6-5"
+         transform="scale(0.86512473,1.1559027)"><tspan
+           sodipodi:role="line"
+           id="tspan443-1-8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.832908;stroke-dasharray:none;stroke-opacity:1"
+           x="70.669418"
+           y="254.99239">QUIT GAME</tspan></text>
+    </g>
+  </g>
+</svg>

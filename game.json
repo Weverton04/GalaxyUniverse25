@@ -315,10 +315,6 @@
               "name": "Res_Left_Window"
             }
           ]
-        },
-        {
-          "name": "Buttons",
-          "objects": []
         }
       ],
       "variables": [],
@@ -346,8 +342,8 @@
           "name": "BTN_Options",
           "persistentUuid": "3059f88a-83a3-48ff-b471-c1df833d2edf",
           "width": 220,
-          "x": 434.3715515136719,
-          "y": 444.8409118652344,
+          "x": 320,
+          "y": 416,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -513,12 +509,7 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "",
@@ -559,12 +550,7 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "",
@@ -580,8 +566,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 349.6771545410156,
-                        "y": 102.84136962890625
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -605,12 +591,7 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "",
@@ -867,7 +848,7 @@
                   "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
+                      "hasCustomCollisionMask": false,
                       "image": "assets\\GUI\\Res_Right-1.png",
                       "points": [],
                       "originPoint": {
@@ -881,26 +862,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -1136,15 +1098,6 @@
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ]
                 }
               ],
               "actions": [
@@ -1164,84 +1117,6 @@
                   "parameters": [
                     "",
                     "\"Options\""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Animação dos botões",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "BTN_Options",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LayerVisible"
-                  },
-                  "parameters": [
-                    "",
-                    "\"\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Tween::AddObjectColorHSLTween"
-                  },
-                  "parameters": [
-                    "BTN_Options",
-                    "Tween",
-                    "\"Cor\"",
-                    "0",
-                    "",
-                    "-1",
-                    "200",
-                    "\"linear\"",
-                    "200",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::AddObjectScaleTween"
-                  },
-                  "parameters": [
-                    "BTN_Options",
-                    "Tween",
-                    "\"Tamanho\"",
-                    "0.4",
-                    "0.4",
-                    "\"easeOutQuad\"",
-                    "200",
-                    "",
-                    ""
                   ]
                 }
               ]
@@ -1290,6 +1165,15 @@
                         "TypeResolution",
                         "<",
                         "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
                       ]
                     },
                     {
@@ -1348,6 +1232,15 @@
                     },
                     {
                       "type": {
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": []
@@ -1398,6 +1291,15 @@
                         "TypeResolution",
                         ">",
                         "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
                       ]
                     },
                     {
@@ -1456,6 +1358,15 @@
                     },
                     {
                       "type": {
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": []
@@ -1483,11 +1394,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
                 }
               ],
               "parameters": []
@@ -1497,7 +1403,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Ativar/Desativar modo janela",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -1584,15 +1489,6 @@
                     },
                     {
                       "type": {
-                        "value": "MouseButtonReleased"
-                      },
-                      "parameters": [
-                        "",
-                        "Left"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "LayerVisible"
                       },
                       "parameters": [
@@ -1609,9 +1505,32 @@
                         "=",
                         "\"ON\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.1"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ModVarGlobalTxt"
@@ -1659,15 +1578,29 @@
                     },
                     {
                       "type": {
-                        "value": "MouseButtonReleased"
+                        "value": "MouseButtonPressed"
                       },
                       "parameters": [
                         "",
                         "Left"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.1"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ModVarGlobalTxt"
@@ -1715,15 +1648,29 @@
                     },
                     {
                       "type": {
-                        "value": "MouseButtonReleased"
+                        "value": "MouseButtonPressed"
                       },
                       "parameters": [
                         "",
                         "Left"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.1"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ModVarGlobalTxt"
@@ -1766,20 +1713,34 @@
                       "parameters": [
                         "Window",
                         "=",
-                        "\"oOFF\""
+                        "\"OFF\""
                       ]
                     },
                     {
                       "type": {
-                        "value": "MouseButtonReleased"
+                        "value": "MouseButtonPressed"
                       },
                       "parameters": [
                         "",
                         "Left"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.1"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ModVarGlobalTxt"
@@ -1829,7 +1790,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Options",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -1845,12 +1806,7 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ]
+      "behaviorsSharedData": []
     },
     {
       "b": 209,
